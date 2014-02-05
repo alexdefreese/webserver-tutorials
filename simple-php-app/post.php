@@ -7,6 +7,6 @@
 			$email = htmlspecialchars($_POST["email"]);
 		?>
 		<h1>Post Response</h1>
-		<p>Hello. Your name is <?php echo $name?> and your email is <?php echo $email ?></p>
+		<p>Hello. Your name is <?php echo $name; ?> and your email is <?php echo $email; ?></p>
 	</body>
 </html>
